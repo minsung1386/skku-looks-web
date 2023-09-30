@@ -4,7 +4,7 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import DeleteIcon from '@mui/icons-material/Delete';
 import axios from 'axios';
 
-function ImageUploader() {
+function ImageResult() {
 	const [selectedFile, setSelectedFile] = useState(null);
 
 	const handleFileChange = (e) => {
@@ -56,7 +56,7 @@ function ImageUploader() {
 			<CssBaseline />
 			<Paper elevation={3} style={{ padding: '20px' }}>
 				<Typography variant="h5" gutterBottom>
-					이미지 업로드
+					찾은 이미지
 				</Typography>
 				<div
 					onDrop={handleFileDrop}
@@ -127,4 +127,4 @@ function ImageUploader() {
 	);
 }
 
-export default ImageUploader;
+export default ImageResult;

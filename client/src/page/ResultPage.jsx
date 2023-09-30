@@ -1,8 +1,8 @@
 import React from 'react';
 import { Typography } from '@mui/material';
-import ImageUploader from '../component/ImageUploader';
+import ImageResult from '../component/ImageResult';
 
-function Landing() {
+function ResultPage() {
 	const titleStyle = {
 		textAlign: 'center',
 		marginTop: '4vh',
@@ -23,10 +23,10 @@ function Landing() {
 			<Typography variant="h1" style={titleStyle}>
 				SKKU-LOOKS
 			</Typography>
-			<Typography style={subtitleStyle}>찾고 싶은 이미지를 업로드해주세요.</Typography>
-			<ImageUploader />
+			<Typography style={subtitleStyle}>찾은 이미지</Typography>
+			<ImageResult />
 		</div>
 	);
 }
 
-export default Landing;
+export default ResultPage;
