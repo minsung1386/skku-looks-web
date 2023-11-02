@@ -24,6 +24,7 @@ function Landing() {
 				SKKU-LOOKS
 			</Typography>
 			<Typography style={subtitleStyle}>찾고 싶은 이미지를 업로드해주세요.</Typography>
+
 			<ImageUploader />
 		</div>
 	);
