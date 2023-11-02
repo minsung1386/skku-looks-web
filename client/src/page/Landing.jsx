@@ -15,6 +15,7 @@ function Landing() {
 		marginTop: '6vh',
 		marginBottom: '6vh',
 		fontSize: '1.5rem',
+		fontWeight: 'bold',
 	};
 
 	return (
@@ -22,7 +23,8 @@ function Landing() {
 			<Typography variant="h1" style={titleStyle}>
 				SKKU-LOOKS
 			</Typography>
-			<Typography style={subtitleStyle}>찾고 싶은 이미지를 입력해주세요.</Typography>
+			<Typography style={subtitleStyle}>찾고 싶은 이미지를 업로드해주세요.</Typography>
+
 			<ImageUploader />
 		</div>
 	);

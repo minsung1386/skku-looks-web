@@ -16,6 +16,7 @@ module.exports = {
 		'prefer-arrow-callback': 'off',
 		'no-console': 'off',
 		'no-alert': 'off',
+		'import/no-extraneous-dependencies': 'off',
 		'react/button-has-type': 'off',
 		'react/jsx-filename-extension': [
 			1,
